@@ -1,0 +1,498 @@
+/* @font-face {
+    font-family: 'JejuHallasan';
+    src: url('../fonts/JejuHallasan.ttf.woff') format('woff'),
+        url('../fonts/JejuHallasan.ttf.svg#JejuHallasan') format('svg'),
+        url('../fonts/JejuHallasan.ttf.eot'),
+        url('../fonts/JejuHallasan.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    
+    background-color: #fff !important;
+    overflow: visible;
+}
+
+#green {
+    background-color: rgb(87, 17, 17);
+    font-family: 'Sans-serif';
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
+#logo:hover {
+    background-color: transparent;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+#green li a {
+    color: white;
+}
+
+#nav {
+    background-image: linear-gradient(to right,rgb(87, 17, 17),rgb(67, 62, 62));
+    font-size: 20px;
+    font-family: 'Sans-serif';
+    height: 55px;
+}
+
+#nav li a {
+    color: #fff;
+    padding-left: 40px;
+}
+
+#nav li a:hover {
+    color: black;
+    padding-left: 40px;
+}
+
+
+.content img {
+    margin-top: -700px;
+}
+
+.carousel-item {
+    height: 50%;
+}
+.carousel-item h1 {
+    color:  black;
+    font-size: 120px;
+    font-family: 'Sans-serif';
+    text-align: left;
+}
+
+.carousel-item h3 {
+    color:white;
+    font-size: 60px;
+    font-family: 'Sans-serif';
+    text-align: left;
+}
+
+.carousel-item svg {
+    width: 50px;
+    height: 100px;
+    color: white;
+    margin-left: -5px;
+    margin-top: -10px;
+
+}
+.container-fluid {
+    flex-wrap: wrap;
+}
+
+.bg {
+    width: 98% !important;
+    height: 100%;
+    border-radius: 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    /* background-color: lightgrey; */
+    margin-top: 50px;
+    text-align: left;
+    padding-left: -50px;
+}
+
+
+.table,th,td{
+    border: 2px solid black;
+    border-spacing: 0px;
+    text-align: center;
+    font-family: 'Sans-serif';
+}
+
+.col-sm-6 img {
+    width: 85%;
+    height: 100% !important;
+    /* padding: 50px px 54px 34px; */
+    border-radius: 30px;
+    /* margin-top: 50px; */
+}
+
+.col-sm-6 h1 {
+    font-family: 'Sans-serif';
+    text-align: justify;
+    margin-left: -90px;
+}
+
+.col-sm-6 p {
+    font-family: 'Sans-serif';
+    text-align: justify;
+    margin-left: -90px;
+}
+
+#headding {
+    border: 3px solid white;
+    /* background-color: #84C353; */
+    background-image: linear-gradient(to right,rgb(87, 17, 17),rgb(67, 62, 62));
+    color: #fff;
+    font-family: 'Sans-serif';
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 400px;
+    height: 60px;
+
+}
+
+
+
+.card-body a {
+    background-color: rgb(76, 72, 72);
+    font-family: 'Sans-serif';
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.card {
+    border-radius: 50px;
+}
+
+.card:hover{
+    background-color: rgb(136, 42, 42);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.card-body h5 {
+    font-family: 'Sans-serif';
+    font-size: 24px;
+}
+#col img {
+    width: 105%;
+    height: 50%;
+    border-radius: 30px;
+    margin-left: -3%;
+}
+
+#col h1 {
+    font-family: 'Sans-serif';
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+.col-12 h1 {
+float: left;
+}
+.col-12 h3 {
+    float: left;
+}
+
+
+#col p {
+    font-family: 'Sans-serif';
+    text-align: center;
+    margin-left: 10px;
+}
+#cols img {
+    width: 105%;
+    height: 50%;
+    border-radius: 30px;
+    margin-left: -3%;
+}
+
+#cols h1 {
+    font-family: 'Sans-serif';
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+
+#cols p {
+    font-family: 'Sans-serif';
+    text-align: center;
+    margin-left: 10px;
+}
+
+#Puppy-Spot button {
+    background-image: linear-gradient(to right,rgb(87, 17, 17),rgb(67, 62, 62));
+    font-family: 'Sans-serif';
+    text-align: center;
+    margin-left: 250px;
+    color: white;
+    border-radius: 20px;
+    font-size: 35px;
+    width: 200px;
+    height: 60px;
+    
+}
+
+.foot {
+    width: 100% !important;
+    height: 100%;
+    border-radius: 25px;
+    background-image: linear-gradient(to right,rgb(87, 17, 17),rgb(67, 62, 62));;
+    margin-top: 70px;
+    text-align: left;
+    padding-left: -50px; 
+}
+
+.col-4 h4 {
+    font-family: 'Sans-serif';
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+
+.col-4 p {
+    font-family: '';
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+.row h1 {
+    text-align: center;
+}
+.col-4 ul {
+    list-style-type: none;
+}
+
+.col-4 ul li {
+    font-family: 'Sans-serif';
+    font-size: 14px;
+    text-align: left;
+    color: white;
+}
+
+#icons {
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    margin-left: 230px;
+
+}
+
+.col-3 p {
+    border: 1px solid #383737;
+    border-radius: 20px;
+    background-color: hsla(30, 5%, 24%, 0.73);
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 14px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+ #link h4 {
+    text-align: left;
+ }
+
+ #link h6 {
+    font-family: 'Sans-serif';
+    font-size: 14px;
+    color: white;
+
+
+ }
+
+
+ #link h6 a{
+    color: white;
+    text-decoration: none;
+ }
+.fimg-b {
+   margin-top: -20px;
+}
+
+#headding-1 {
+    background-image: linear-gradient(to right,rgb(87, 17, 17),rgb(67, 62, 62));
+    font-family: 'Sans-serif';
+    text-align: center;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 300px;
+    height: 60px;
+}
+
+
+#headding-1:hover {
+    background-color: #383737;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+
+.gallery-item {
+    border-radius: 15px;
+} 
+
+#name {
+    background-image: linear-gradient(to right,rgb(87, 17, 17),rgb(67, 62, 62));;
+    border: 2px solid  brown;
+   border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
+#name:hover {
+    background-color: #383737;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+
+.hover img:hover{
+    border: 4px solid  #84C353;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+
+input[type=text], select#title, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 3px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  /* .form-cm {
+    padding: 5px;
+    margin-right: 50px;
+  } */
+
+  .form {
+    background-color:   #84C353;
+    width: 100%;
+    height: 650px;
+    border-radius: 15px;
+    font-family: 'Sans-serif';
+  }
+
+  h3,b {
+    font-family: 'Sans-serif';
+  }
+
+  input,textarea,select {
+    border-radius: 20px;
+  }
+
+  .buttoncf {
+    font-family: 'Sans-serif';
+    width: 100px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .location iframe {
+    width: 100%;
+    height: 650px;
+    border-radius: 15px;
+  }
+  
+
+
+
+
+.events {
+    border: 6px solid  #84C353;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.e-headding {
+    font-family: 'Sans-serif';
+    font-size: 16px;
+}
+
+.e-headding h2:hover {
+    background-color: #D1CFA5;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.e-headding p {
+    font-family: 'Sans-serif';
+    font-size: 16px;
+}
+
+
+
+.e-headding a {
+    background-image:linear-gradient(to right,rgb(87, 17, 17),rgb(67, 62, 62)) ;
+    font-family: 'Sans-serif';
+    font-size: 16px;
+}
+
+.e-headding a:hover {
+    background-color: #D1CFA5;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.team {
+
+    width: 100%;  
+    height: 80%;
+    border-radius: 15px;
+} 
+
+.team h1 {
+    font-family: 'Sans-serif';
+    text-align: center;
+
+}
+
+.team p {
+    font-family: 'Sans-serif';
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.t {
+    width: 100%;  
+    height: 80%;
+}
+
+.teamContainer a{
+    border-radius: 50px;
+    background-image: linear-gradient(to right,rgb(87, 17, 17),rgb(67, 62, 62));
+    padding: 5px 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+
